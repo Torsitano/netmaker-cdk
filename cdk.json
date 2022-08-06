@@ -30,6 +30,12 @@
         "@aws-cdk/core:target-partitions": [
             "aws",
             "aws-cn"
-        ]
+        ],
+
+        "prod": {
+            "AwsAccountId": "698852667105",
+            "Environment": "Prod",
+            "Region": "us-east-1"
+        }
     }
 }
